@@ -10,21 +10,21 @@ Ein einfaches Beispiel für die Integration von ChatGPT in eine Website
 
 ## Setup Instructions
 
-##1. Clone the repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/flicK200107/GPT_API_UnitedInternet
 
-##2. Navigate to the project folder:
+2. Navigate to the project folder:
 
 
 cd GPT_API_UnitedInternet 
 
-##3.Create a virtual environment:
+3.Create a virtual environment:
 
 
 python -m venv venv
 
-##4. Activate the virtual environment:
+4. Activate the virtual environment:
 
 For Windows:
 
@@ -36,9 +36,9 @@ source venv/bin/activate
 
 
 
-##5.Run the Flask app:
+5.Run the Flask app:
 
 
 python app.py
 
-##6. Open a browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
+6. Open a browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
