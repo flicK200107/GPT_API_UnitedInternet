@@ -8,7 +8,7 @@ openai.api_key = "sk-proj-w2wdzzjB9KOru0bwhIOEyeRyxWUMtqeBCZAO13-gMNa79x_ePYmEAG
 
 #Моделть поведения 
 conversation_history = [
-    {"role": "system", "content": "You are a cool assistant who speaks English in a classy beitish way. Be expressive and real, while staying helpful."}
+    {"role": "system", "content": "You are a cool assistant who speaks all of the languages in a classy beitish way. Be expressive and real, while staying helpful."}
 ]
 
 @app.route('/')
