@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <h1>GPT API Showcase by Ivan Horodetskyi</h1>
+    <textarea id="query" placeholder="Type your question..."></textarea><br>
+    <button id="submit-btn">Submit</button>
+    <div id="conversation"></div>
+
+    <script>
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            const query = document.getElementById('query').value;
+            document.getElementById('query').value = ''; 
+
+            fetch('/query', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query: query }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const conversationDiv = document.getElementById('conversation');
+                const userMessage = `<p><strong>You:</strong> ${query}</p>`;
+                const assistantMessage = `<p><strong>API Showcase :</strong> ${data.answer}</p>`;
+                conversationDiv.innerHTML += userMessage + assistantMessage;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
