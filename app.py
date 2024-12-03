@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 
-openai.api_key = "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"  
+openai.api_key = "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"  
 
 #Моделть поведения 
 conversation_history = [
