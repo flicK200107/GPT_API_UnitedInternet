@@ -16,29 +16,29 @@ Ein einfaches Beispiel für die Integration von ChatGPT in eine Website
 
 2. Navigate to the project folder:
 
-
+```bash
 cd GPT_API_UnitedInternet 
 
 3.Create a virtual environment:
 
-
+```bash
 python -m venv venv
 
 4. Activate the virtual environment:
 
 For Windows:
-
+```bash
 venv\Scripts\activate
 
 For Mac/Linux:
-
+```bash
 source venv/bin/activate
 
 
 
 5.Run the Flask app:
 
-
+```bash
 python app.py
 
 6. Open a browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
