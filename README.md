@@ -6,7 +6,7 @@ Ein einfaches Beispiel für die Integration von ChatGPT in eine Website
 ## Requirements
 - Python 3.x
 - Flask
-- OpenAI API Key (Or use deafult already built it code) 
+- OpenAI API Key (The one in the code is currently innactive) 
 
 ## Setup Instructions
 
