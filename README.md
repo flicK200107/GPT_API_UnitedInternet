@@ -43,4 +43,4 @@ python app.py
 
 6. Open a browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
 
-## OpenAI API-Key to use: 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
+
